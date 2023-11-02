@@ -1,0 +1,275 @@
+nav{
+    display:flex;
+}
+.list-item{
+    display: flex;
+    list-style: none;
+    margin-right: auto;
+    color: black;
+    font-size: larger;
+    padding: revert-layer;
+    margin-top: auto;
+    border: aliceblue;
+    border-block: inherit;
+    border-block-color: inherit;
+    
+}
+.banner1{
+    color: black;
+    margin-top: -700px;
+    margin-left: 1200px;
+}
+.box
+    {
+        width: 170px;
+        height: 170px;
+        border: 2px solid red;
+    }
+    #box1
+    {
+        z-index: 30px;
+        position: relative;
+        background-color: rgb(230, 242, 242);
+        top: 40px;
+        margin-right: 50px;
+        margin-left: 40px;
+        border-radius: 5px;
+    }
+    #box3
+    {
+        margin-right: 100px;
+        margin-left: 470px;
+        z-index: 50px;
+        position: relative;
+        background-color: antiquewhite;
+        top: -300px;
+        border-radius: 5px;
+        
+    }
+    #box4
+    {
+        margin-right: 100px;
+        margin-left: 690px;
+        z-index: 50px;
+        position: relative;
+        background-color: antiquewhite;
+        top: -340px;
+        border-radius: 5px;
+    }
+    #box5
+    {
+        margin-right: 100px;
+        margin-left: 920px;
+        z-index: 50px;
+        position: relative;
+        background-color: antiquewhite;
+        top: -650px;
+        border-radius: 5px;
+    }
+.items{
+    margin-right:50px;
+    cursor: pointer;
+    
+}
+
+.logo{
+    height: 150px;
+    width:100px;
+}
+.banner{
+    display:flex;
+}
+.banner>p{
+    margin-bottom: 0px;
+}
+
+body {
+    min-height: 200vh;
+    display: unset;
+    flex-direction: column;
+    font-size: large;
+    color: darkslateblue;
+    font-palette: dark;
+    font-family: cursive;
+    font-weight: bold;
+}
+    
+  
+  
+  footer {
+    margin-top: auto;
+    padding-block: revert;
+    color: black;
+    font-size: large;
+    color: indigo;
+ }
+
+
+
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.cont{
+    width: 250px;
+    height: 195px;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 10px 20px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.overlay
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition:opacity 0.4s ease-in-out;
+    background: black;
+    cursor: pointer;
+}
+.content
+{
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    transform: translate(-50%,-50%);
+}
+.cont:hover .overlay
+{
+    opacity: 0.8;
+}
+
+
+.cont2{
+    width: 250px;
+    height: 195px;
+    position: absolute;
+    top: 75%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 10px 20px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.overlay2
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition:opacity 0.4s ease-in-out;
+    background: black;
+    cursor: pointer;
+}
+.content2
+{
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    transform: translate(-50%,-50%);
+}
+.cont2:hover .overlay2
+{
+    opacity: 0.8;
+}
+
+
+.cont3{
+    width: 250px;
+    height: 195px;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 10px 20px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.overlay3
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition:opacity 0.4s ease-in-out;
+    background: black;
+    cursor: pointer;
+}
+.content3
+{
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    transform: translate(-50%,-50%);
+}
+.cont3:hover .overlay3
+{
+    opacity: 0.8;
+}
+
+
+.cont4{
+    width: 250px;
+    height: 195px;
+    position: absolute;
+    top: 75%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 10px 20px;
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.overlay4
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition:opacity 0.4s ease-in-out;
+    background: black;
+    cursor: pointer;
+}
+.content4
+{
+    position: absolute;
+    top: 55%;
+    left: 48%;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:'Times New Roman', Times, serif;
+    transform: translate(-50%,-50%);
+}
+.cont4:hover .overlay4
+{
+    opacity: 0.8;
+}
